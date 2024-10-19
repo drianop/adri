@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Custo de Viagem</title>
+    <link rel="stylesheet" href="calculadoragastos.css">
+</head>
+<body>
+    <div id="calculadora-gasto">
+    <h1 id="text">Cálculo de Custo de Viagem</h1>
+
+    <!--label vai ser um texto que vai ser atríbuido ao input apartir do id que vai ser colocado no for-->
+    <div class="combus">
+    <label for="etanol-preco">Preço do Etanol (R$):</label>
+    <input type="number" id="etanol-preco" min="0" value="4.10" step="0.05"> 
+</div>
+
+
+
+
+
+<div class="combus">
+    <label for="gasolina-preco">Preço da Gasolina (R$):</label>
+    <input type="number" id="gasolina-preco" min="0" value="5.70" step="0.05">
+</div>
+
+
+    
+
+
+
+
+<div id="select-comb">
+
+    <label for="combustivel">Tipo de Combustível:</label>
+    <select id="combustivel">  <!-- select pra dar duas opções pra user selecionar qual tipo de combustível -->
+        <option value="etanol">Etanol</option>
+        <option value="gasolina">Gasolina</option>
+    </select>
+</div>
+
+
+<div class="combus">
+    <label for="distancia">Distância da Viagem(km):</label> 
+    <input type="number" id="distancia" min="0" placeholder="Ex: 100" step="1"> <!-- distância em km --> 
+</div>
+<div class="combus">
+    <label for="litros">Litros Consumidos para a viagem:</label>
+    <input type="number" id="litros" min="0" placeholder="Ex: 8" step="0.1"> <!-- Litros da gasolina ou etanol--> 
+</div>
+
+    <button id="calcular">Calcular custo</button> <!-- botão da calculadora--> 
+
+    <h2 id="resultado"></h2> <!-- aqui vai ser o h2 que vai ser chamado quando for calculado o custo da viagem --> 
+</div>
+        <script type="text/javascript" src="calculadoragastos.js"></script>
+</body>
+</html>

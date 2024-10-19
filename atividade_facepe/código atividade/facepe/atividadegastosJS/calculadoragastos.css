@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+label {
+    display: block;
+    margin-top: 10px;
+}
+:root{
+    font-family: Verdana;
+    background-color: azure;
+    color: white;
+    font-synthesis: none;
+    text-rendering: antia;
+}
+#text, h2{
+color: rgb(255, 255, 255);
+}
+
+#calculadora-gasto{
+    border-radius: 10px;
+    padding: 6rem;
+    background-color: #252529;
+    width: 900px;
+    height: 700px;
+    display: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.combus label, #select-comb label{
+    font-size: 1.0rem;
+    letter-spacing: 0.0250rem;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    
+}
+.combus, #select-comb{
+    margin-top: .5rem;
+    display: relative;
+    padding: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: .475rem;
+    border: 1 px solid #252529;
+    background-color: #17171a;
+    width: 500px;
+}
+#calcular{
+    border-radius: 5px;
+    border-color: #17171a;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #17171a;
+    text-shadow: 4cm;
+    text-align: center;
+    color: white;
+    
+}
+#form{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
